@@ -14,9 +14,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os, sys
+sys.path.insert(0,os.path.join(os.path.dirname(os.path.abspath(__file__)),".."))
+
+
 import argparse
 import functools
-import os
+# import os
 import json
 import math
 from collections import defaultdict
